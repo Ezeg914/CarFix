@@ -1,0 +1,142 @@
+{
+  "vehiculo": {
+    "marca": "Volkswagen",
+    "modelo": "Vento",
+    "anio": "2012"
+  },
+  "piezas": [
+    {
+      "pieza": "Headlight",
+      "nombre": "Óptica delantera",
+      "accion": "cambiar",
+      "motivo": "pieza que se cambia ante cualquier daño",
+      "danios": [
+        {
+          "categoria": "Rotura",
+          "clase": "Rotura",
+          "conf": 0.728,
+          "cobertura": 0.777
+        }
+      ],
+      "items": [
+        {
+          "concepto": "Repuesto Óptica delantera",
+          "precio": 0.0
+        },
+        {
+          "concepto": "Mano de obra cambio Óptica delantera",
+          "precio": 0.0
+        }
+      ],
+      "subtotal": 0.0
+    },
+    {
+      "pieza": "Front-bumper",
+      "nombre": "Paragolpes delantero",
+      "accion": "cambiar",
+      "motivo": "rotura (100% de la pieza)",
+      "danios": [
+        {
+          "categoria": "Rotura",
+          "clase": "Rotura",
+          "conf": 0.648,
+          "cobertura": 0.809
+        },
+        {
+          "categoria": "Rotura",
+          "clase": "Rotura",
+          "conf": 0.551,
+          "cobertura": 0.732
+        },
+        {
+          "categoria": "Pintura",
+          "clase": "Pintura",
+          "conf": 0.284,
+          "cobertura": 0.003
+        },
+        {
+          "categoria": "Rotura",
+          "clase": "Rotura",
+          "conf": 0.209,
+          "cobertura": 0.035
+        },
+        {
+          "categoria": "Pintura",
+          "clase": "Pintura",
+          "conf": 0.202,
+          "cobertura": 0.001
+        }
+      ],
+      "items": [
+        {
+          "concepto": "Repuesto Paragolpes delantero",
+          "precio": 0.0
+        },
+        {
+          "concepto": "Mano de obra cambio Paragolpes delantero",
+          "precio": 0.0
+        },
+        {
+          "concepto": "Pintura Paragolpes delantero",
+          "precio": 0.0
+        }
+      ],
+      "subtotal": 0.0
+    },
+    {
+      "pieza": "Hood",
+      "nombre": "Capot",
+      "accion": "reparar",
+      "motivo": "golpe chico (5% de la pieza)",
+      "danios": [
+        {
+          "categoria": "Golpe",
+          "clase": "Golpe",
+          "conf": 0.246,
+          "cobertura": 0.044
+        },
+        {
+          "categoria": "Golpe",
+          "clase": "Golpe",
+          "conf": 0.245,
+          "cobertura": 0.003
+        }
+      ],
+      "items": [
+        {
+          "concepto": "Reparación chapa Capot",
+          "precio": 0.0
+        },
+        {
+          "concepto": "Pintura Capot",
+          "precio": 0.0
+        }
+      ],
+      "subtotal": 0.0
+    }
+  ],
+  "revisar": [
+    {
+      "pieza": "Windshield",
+      "nombre": "Parabrisas",
+      "accion": "revisar",
+      "motivo": "daños de baja confianza, revisar a mano",
+      "danios": [
+        {
+          "categoria": "Rotura",
+          "clase": "Rotura",
+          "conf": 0.652,
+          "cobertura": 0.914
+        }
+      ],
+      "items": [],
+      "subtotal": 0
+    }
+  ],
+  "danios_sin_pieza": [],
+  "total": 0.0,
+  "faltan_precios": true,
+  "modo": "foto",
+  "vehiculo_encontrado": true,
+  "danios_fuera_del_vehiculo": 0
+}
