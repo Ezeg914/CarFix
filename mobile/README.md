@@ -19,6 +19,11 @@ lib/
 
 ## Probar
 
+Atajo en Windows con el celular por USB: abrir `scripts\iniciar_api.bat` y después
+`scripts\iniciar_app.bat`. La app queda apuntando a la API sola (usa `adb reverse`).
+
+A mano:
+
 1. Levantar la API en la PC (ver el README principal).
 2. Conectar el celular por USB con la depuración USB activada, o abrir un emulador.
 3. Desde esta carpeta:
