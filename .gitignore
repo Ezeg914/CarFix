@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Datasets y entrenamientos: pesan mucho, no van al repositorio
+training/data/
+training/runs/
+*.cache
+
+# Resultados generados
+outputs/
+
+# Scripts viejos
+_viejo/

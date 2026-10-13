@@ -1,0 +1,22 @@
+pieza,nombre,tipo,umbral_cambio,umbral_rotura,conf_minima,repuesto,mano_obra_cambio,mano_obra_reparacion,pintura
+Headlight,Óptica delantera,cambio,,,,0,0,0,0
+Tail-light,Faro trasero,cambio,,,,0,0,0,0
+Windshield,Parabrisas,cambio,,,0.75,0,0,0,0
+Back-windshield,Luneta,cambio,,,0.75,0,0,0,0
+Front-window,Vidrio puerta delantera,cambio,,,0.75,0,0,0,0
+Back-window,Vidrio puerta trasera,cambio,,,0.75,0,0,0,0
+Mirror,Espejo,cambio,,,,0,0,0,0
+License-plate,Patente,ignorar,,,,0,0,0,0
+Grille,Parrilla,cambio,,,,0,0,0,0
+Front-wheel,Rueda delantera,ignorar,,,,0,0,0,0
+Back-wheel,Rueda trasera,ignorar,,,,0,0,0,0
+Front-bumper,Paragolpes delantero,chapa,0.30,0,,0,0,0,0
+Back-bumper,Paragolpes trasero,chapa,0.30,0,,0,0,0,0
+Fender,Guardabarros,chapa,0.25,0.10,,0,0,0,0
+Hood,Capot,chapa,0.25,0.10,,0,0,0,0
+Front-door,Puerta delantera,chapa,0.25,0.10,,0,0,0,0
+Back-door,Puerta trasera,chapa,0.25,0.10,,0,0,0,0
+Quarter-panel,Panel trasero,chapa,0.20,0.10,,0,0,0,0
+Rocker-panel,Zócalo,chapa,0.20,0.10,,0,0,0,0
+Trunk,Baúl / portón,chapa,0.25,0.10,,0,0,0,0
+Roof,Techo,chapa,0.20,0.10,,0,0,0,0
